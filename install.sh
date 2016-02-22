@@ -36,6 +36,8 @@ if [ -f "cudnn-7.0-linux-x64-v3.0-prod.tgz" ] ; then
   tar -xvf cudnn-7.0-linux-x64-v3.0-prod.tgz
   sudo cp -P cudnn*/libcudnn* /usr/local/cuda/lib64
   sudo cp cudnn*/cudnn.h /usr/local/cuda/include
+  sudo cp -P cuda*/libcudnn* /usr/local/cuda/lib64
+  sudo cp cuda*/cudnn.h /usr/local/cuda/include
 fi
 # Need to put cuda on the linker path.  This may not be the best way, but it works.
 sudo sh -c "sudo echo '/usr/local/cuda/lib64' > /etc/ld.so.conf.d/cuda_hack.conf"
