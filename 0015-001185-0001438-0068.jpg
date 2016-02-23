@@ -1,0 +1,1687 @@
+<!-- Start: MetaData changes for endeca -->
+	<!-- End: MetaData changes for endeca -->
+	<!doctype html>
+		<!-- Microdata markup added by Google Structured Data Markup Helper. -->
+		<!--[if lt IE 7 ]> <html class="no-js ie6 lt-ie9" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#"> <![endif]-->
+		<!--[if IE 7 ]>    <html class="no-js ie7 lt-ie9" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#"> <![endif]-->
+		<!--[if IE 8 ]>    <html class="no-js ie8 lt-ie9" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#"> <![endif]-->
+		<!--[if IE 9 ]>    <html class="no-js ie9" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#"> <![endif]-->
+		<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#"> <!--<![endif]-->
+				<head>
+					<meta charset="UTF-8">
+					<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+					<meta name="google-site-verification" content="FDsPzf5X3PclohKMrmpYrAuGnSRjSpeewiqf7OFiH68"/>
+					<meta name="msvalidate.01" content="CAFDDCA0E6FA800C665105952096D096"/>
+					<!-- Begin Monetate tag v6. Place at start of document head. DO NOT ALTER. -->
+					
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"Vw4CUldbGwEBUVlUDgY="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function s(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);return i}function c(t,e){d[t]=f(t).concat(e)}function f(t){return d[t]||[]}function u(){return r(s)}var d={};return{on:c,emit:s,create:u,listeners:f,context:e,_events:d}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:25,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,a){try{f?f-=1:r("err",[a||new UncaughtException(t,e,n)])}catch(c){try{r("ierr",[c,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof s?s.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=t("loader"),s=window.onerror,c=!1,f=0;a.features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(u){"stack"in u&&(t(1),t(2),"addEventListener"in window&&t(3),a.xhrWrappable&&t(4),c=!0)}i.on("fn-start",function(){c&&(f+=1)}),i.on("fn-err",function(t,e,r){c&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){c&&!this.thrown&&f>0&&(f-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:26,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.clearResourceTimings?window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1):window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){for(var e=t;e&&!e.hasOwnProperty("addEventListener");)e=Object.getPrototypeOf(e);e&&r(e)}function r(t){a.inPlace(t,["addEventListener","removeEventListener"],"-",o)}function o(t){return t[1]}var i=t("ee").create(),a=t(1)(i),s=t("gos");e.exports=i,r(window),"getPrototypeOf"in Object?(n(document),n(XMLHttpRequest.prototype)):XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&r(XMLHttpRequest.prototype),i.on("addEventListener-start",function(t){if(t[1]){var e=t[1];if("function"==typeof e){var n=s(e,"nr@wrapped",function(){return a(e,"fn-",null,e.name||"anonymous")});this.wrapped=t[1]=n}else"function"==typeof e.handleEvent&&a.inPlace(e,["handleEvent"],"fn-")}}),i.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:27,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:27,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:27,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=i(t[0],"fn-",this,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:27,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,l,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-",o)}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[e],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:27,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var o=0;u>o;o++)t.removeEventListener(f[o],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=this.lastSize||n(t);if(i&&(r.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,c.emit("xhr-done",[t],t),a("xhr",[e,r,this.startTime])}}}function n(t){var e=t.responseType,n="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return r(n)}function r(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function o(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var i=t("loader");if(i.xhrWrappable){var a=t("handle"),s=t(2),c=t("ee"),f=["load","error","abort","timeout"],u=f.length,d=t(1),l=t(3),p=window.XMLHttpRequest;i.features.xhr=!0,t(5),t(4),c.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=e,n.ended=!1,n.xhrGuids={},n.lastSize=0,l&&(l>34||10>l)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),c.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),c.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),c.on("send-xhr-start",function(t,e){var n=this.metrics,o=t[0],i=this;if(n&&o){var a=r(o);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{c.emit("internal-error",[n])}catch(r){}}};for(var s=0;u>s;s++)e.addEventListener(f[s],this.listener,!1)}),c.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),c.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),c.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),c.on("addEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-added",[t[1],t[2]],e)}),c.on("removeEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-removed",[t[1],t[2]],e)}),c.on("fn-start",function(t,e,n){e instanceof p&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),c.on("fn-end",function(t,e){this.xhrCbStart&&c.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:16,4:12,5:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:25,2:26,handle:"D5DuLP"}],16:[function(t,e){var n=0,r=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);r&&(n=+r[1]),e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!h++){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){t[e]||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},l=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),p=e.exports={offset:i(),origin:u,features:{},xhrWrappable:l};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var h=0},{1:25,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],25:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],26:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],27:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,c;try{i=this,n=o(arguments),s="function"==typeof r?r(n,i):r||{}}catch(u){d([u,"",[n,i,a],s])}f(e+"start",[n,i,a],s);try{return c=t.apply(i,n)}catch(l){throw f(e+"err",[n,i,l],s),l}finally{f(e+"end",[n,i,c],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,u(t,nrWrapper),nrWrapper)}function c(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!s){s=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}s=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=c,e.flag=i,e}},{1:26,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script><script type="text/javascript">
+						var monetateT = new Date().getTime();
+						(function() {
+						    var p = document.location.protocol;
+						    if (p == "http:" || p == "https:") {
+						        var m = document.createElement('script'); m.type = 'text/javascript'; m.async = true; m.src = (p == "https:" ? "https://s" : "http://") + "b.monetate.net/js/1/a-d553612f/p/rue21.com/" + Math.floor((monetateT + 611375) / 3600000) + "/g";
+						        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(m, s);
+						    }
+						})();
+					</script>
+					 <script>		
+				    	var contextPath = ''
+						var requestURI = '/store/browse/product.jsp';
+						var queryString = 'productId=0015-001185-0001438-0068';
+						queryString = queryString.replace(/&amp;/g, '&');
+						var NVal = '';
+				    </script>
+					<!-- End Monetate tag. -->
+					
+					<script type="text/javascript">
+			var testTwoDayShippingEnabled = 'true';
+		</script>
+	<script type="text/javascript">
+			var enableShipToStore = 'true';
+		</script>
+<!-- Start: MetaData Changes for endeca -->
+<!-- End: MetaData Changes for endeca -->
+<meta property="og:title" content="Lacy Pink Peplum Blouse" />
+	<meta property="og:type" content="product" />
+<meta property="og:description" content="Rue21" />
+	<meta property="og:url" content="http://www.rue21.com/store/jump/product/Lacy-Pink-Peplum-Blouse/0015-001185-0001438-0068" />
+<meta name="keywords" content="rue 21 girls, cute girls clothing, trendy clothing, womens, teens, juniors, tops, blouse, lace, chiffon, sweetheart, chevron, crochet, peplum, pink" />
+<meta name="description" content="" />   
+		<meta property="og:image" content="http://s7d2.scene7.com/is/image/rue21/0015_001185_0001438_0068_m" />
+<link rel="canonical" href="http://www.rue21.com/store/jump/product/Lacy-Pink-Peplum-Blouse/0015-001185-0001438-0068" />
+<title>Lacy Pink Peplum Blouse | Blouses | rue21</title>
+					<link rel="shortcut icon" href="/store/favicon-new.ico" type="image/x-icon">
+					
+
+					<meta id="viewport" name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+					<meta name="apple-mobile-web-app-title" content="rue21" />
+
+					<link rel="apple-touch-icon" sizes="144x144" href="/store/resources/images/logos/apple-touch-icon-144x144.png">
+					<link rel="apple-touch-icon" sizes="114x114" href="/store/resources/images/logos/apple-touch-icon-114x114.png">
+					<link rel="apple-touch-icon" sizes="72x72" href="/store/resources/images/logos/apple-touch-icon-72x72.png">
+					<link rel="apple-touch-icon" href="/store/resources/images/logos/apple-touch-icon.png">
+
+					<script type="text/javascript" src="/store/resources/js/jquery.js"></script>
+					<script type="text/javascript" src="/store/resources/js/jquery-ui.js"></script>
+					
+					<link rel="stylesheet" href="/store/resources/css/global.rue.css?20160218_0620_633_CST" type="text/css" charset="utf-8"/>
+					<!--[if lt IE 9]><link rel="stylesheet" href="/store/resources/css/ie8-grid-foundation-4.css?20160218_0620_633_CST" type="text/css" charset="utf-8"/><![endif]-->
+					<!--[if IE 9]><link rel="stylesheet" href="/store/resources/css/ie9.css?20160218_0620_633_CST" type="text/css" charset="utf-8"/><![endif]-->
+					<!--[if lt IE 9]><script type="text/javascript" src="/store/resources/js/ie8.js?20160218_0620_633_CST"></script><![endif]-->
+					<!--[if lte IE 9]><script type="text/javascript" src="/store/resources/js/matchMedia.js?20160218_0620_633_CST"></script><![endif]-->
+					<!--[if lt IE 9]><script type="text/javascript" src="/store/resources/js/selectivizr-min.js?20160218_0620_633_CST"></script><![endif]-->
+					<script type="text/javascript" src="/store/resources/js/custom.modernizr.js?20160218_0620_633_CST"></script>
+					
+					<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
+					<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+					
+					<script type="text/javascript" src="//rue21.scene7.com/s7sdk/2.3/js/s7sdk/utils/Utils.js"></script>
+					<script type="text/javascript">
+						s7sdk.Util.lib.include('s7sdk.image.FlyoutZoomView');
+						s7sdk.Util.lib.include('s7sdk.image.ZoomView');
+						s7sdk.Util.lib.include('s7sdk.common.Container');
+						s7sdk.Util.lib.include('s7sdk.event.Event');
+						s7sdk.Util.lib.include('s7sdk.set.Swatches');
+						s7sdk.Util.init();
+						s7sdk.Util.css.addDefaultCSS = function(){
+							//do nothing, kill Scene7's Default CSS implementation
+						}
+						s7sdk.Window.monitorSize = function(){
+							//Hijack Scene7 ScrollTo bug for IOS
+						}
+					</script>
+					<!-- Changed by TAISTech for TagMan Variables on Endeca Driven Pages: Start -->
+					<!-- Begin TagMan code -->
+<script>
+	// client configurable parameters
+	// Changed by TAISTech for passing productNames instead of sku names and shipping method prices for RUE-3199
+	window.tmParam = {
+		
+				user_user_id:'',
+				user_user_type:'Customer',
+				page_type:'pdp',
+				site_section:'Girls'
+			
+				,
+				page_department:'Girls',
+				page_category:'Blouses',
+				page_subcategory:'',
+				page_cart_total_items:'0',
+				page_cart_discounted_items:'0',
+				page_cart_fullprice_items:'0',
+				page_cart_removed_items:'0',
+				product_name:'Lacy Pink Peplum Blouse',
+				product_color:'color_0067,color_0068',
+				product_tab:'colors/sizes',
+				product_sku:'0021243522-0021243530-0021243548-0021243555-0021243563-0021243589-0021243597-0021243605-0021243613-0021243621',
+				product_sale:'0',
+				product_style:'0015-001185-0001438'
+			
+	};
+</script>
+
+<script>
+  (function(d,s){
+    var client = 'ruetwentyone';
+    var siteId = 1;
+
+    //  do not edit
+    var a=d.createElement(s),b=d.getElementsByTagName(s)[0];
+    a.async=true;a.type='text/javascript';
+    a.src='//sec.levexis.com/clients/'+client+'/'+siteId+'.js';
+    a.tagman='st='+(+new Date())+'&c='+client+'&sid='+siteId;
+    b.parentNode.insertBefore(a,b);
+  })(document,'script');
+</script>
+<!-- End TagMan code -->
+
+<script>
+var TAGGING_VARIABLES =
+	{
+		page_cart_total_items:'0',
+		page_cart_discounted_items:'0',
+		page_cart_fullprice_items:'0',
+		page_cart_removed_items:'0',
+		product_name:'Lacy Pink Peplum Blouse',
+		product_sku:'0021243522-0021243530-0021243548-0021243555-0021243563-0021243589-0021243597-0021243605-0021243613-0021243621',
+		product_color:'color_0067,color_0068',
+		product_sale:'0'
+	}
+</script>
+
+<!-- Changed by TAISTech for TagMan Variables on Endeca Driven Pages: End -->
+					<!-- Changed by TAISTech for meta robots tag: Start -->
+					<meta name="robots" content="index,follow" />
+						<!-- Changed by TAISTech for meta robots tag: End -->
+
+</head>
+
+				<body data-controller="product"
+					data-action="detail"
+					class="browse product off-canvas hide-extras"
+					id="">
+					<span id="smallTest" class="show-for-small"></span>
+					<span id="mediumTest" class="show-for-medium"></span>
+					<span id="largeTest" class="show-for-large-up"></span>
+		<script>
+             				  function setCookie(name, value, path,expires, domain, secure){
+								cookieStr = name + "=" + escape(value) + "; ";
+								if(path){
+								cookieStr += "path=" + path + "; ";
+									}
+								if(domain){
+								cookieStr += "domain=" + domain + "; ";
+									}
+								if(secure){
+								cookieStr += "secure; ";
+									}
+								document.cookie = cookieStr;
+								}
+             				  
+             				 function showDiv() {
+   							  setCookie('diplayPromo', 'Yes','/');
+                					}
+             				function hideDiv() {
+  							  setCookie('diplayPromo', 'No','/');
+               					}
+             				 
+             		</script>
+             			
+             		
+			
+					<div id="header" class="clearfix">
+	    		<div class="navbar">
+					<section role="main" data-magellan-destination="main-section">
+						<a name="main-section"></a>
+						<header id="reuHeader">
+							<div class="row clearfix  rowContainer shippingRow">
+						  	<div class="columns medium-12">
+						    <div class="left freeShipping">
+								<script> var category_id = ''; </script>
+	<p>
+<a data-reveal-ajax="true" data-reveal-id="myModalLink" href="/store/jump/static/20700002"><strong>FREE SHIPPING</strong>&nbsp;OVER $50 &amp; FREE IN-STORE RETURNS</a>
+</p>
+<div aria-hidden="true" aria-labelledby="modalTitle" class="reveal-modal" data-reveal="" id="myModalLink" role="dialog">&nbsp;</div></div>
+						    <div class="right">
+						   
+						    <ul class="topRightSec right">
+		<li data-tooltipaaa title="Stores"><a href="/store/jump/static/STORE-LOCATOR/store-locator">Find a Store</a></li>
+		<li data-tooltipaaa title="Track Order"><a id="trackOrderLink" href="/store/account/trackMyOrder.jsp">Track My Order</a></li>
+		<li class="util-sign-in  tip-bottom show-for-guest" data-tooltipaaa title="Sign In"><a href="http://www.rue21.com/store/account/login.jsp" data-target="login-modal">Sign In</a></li>
+
+		<li class="util-my-account  tip-bottom show-for-partially-authenticated" data-tooltipaaa title="My Account"><a href="http://www.rue21.com/store/account/login.jsp" data-target="login-modal">My account</a></li>
+		<li class="util-sign-out  tip-bottom show-for-partially-authenticated" data-tooltipaaa title="Sign Out"><a id="logout" href="http://www.rue21.com/store/index.jsp?_DARGS=/store/sitewide/header/head.jsp_A&_DAV=true&_dynSessConf=6566371932941615761">: Sign out</a></li>
+
+		<li class="util-my-account  tip-bottom show-for-fully-authenticated" data-tooltipaaa title="My Account"><a href="https://www.rue21.com/store/account/profile.jsp">My account</a></li>
+		<li class="util-sign-out  tip-bottom show-for-fully-authenticated" data-tooltipaaa title="Sign Out"><a id="logout" href="http://www.rue21.com/store/index.jsp?_DARGS=/store/sitewide/header/head.jsp.1_A&_DAV=true&_dynSessConf=6566371932941615761">Sign out</a></li>
+
+		<li class="posRel">
+			<div class="chekcout-icon"> 
+				<span class="show-for-medium-up util-cartcounter "> 
+					<span class="checkout-cont"> <a data-dropdown="mini-cart" href="#" class="cart-counter"> </a></span>
+				</span>
+				<div id="mini-cart" class="mini-cart rueContCart closeParentCont">
+				</div>
+			</div>
+		</li>
+		<li>
+			<a href="http://www.rue21.com/store/checkout/cart.jsp" title="Bag">MY BAG</a>
+		</li>
+		<div id="headerCartFormDiv" style="position:fixed;left:-9999px">
+			<form id="headerCartForm" action="?_DARGS=/store/sitewide/header/head.jsp.cartForm" class="cart-form" method="post"><div style="display:none"><input name="_dyncharset" value="utf-8" type="hidden"/> </div><div style="display:none"><input name="_dynSessConf" value="6566371932941615761" type="hidden"/> </div><input name="checkForChangedQuantity" value="false" type="hidden"/><input name="_D:checkForChangedQuantity" value=" " type="hidden"/><input id="moveToPurchaseInfoSuccessURL" name="moveToPurchaseInfoSuccessURL" value="https://www.rue21.com/store/checkout/singlePageCheckout.jsp" type="hidden"/><input name="_D:moveToPurchaseInfoSuccessURL" value=" " type="hidden"/><input id="moveToPurchaseInfoErrorURL" name="moveToPurchaseInfoErrorURL" value="http://www.rue21.com/store/checkout/cart.jsp" type="hidden"/><input name="_D:moveToPurchaseInfoErrorURL" value=" " type="hidden"/><input id="checkout" name="moveToPurchaseInfo" value="Checkout" class="cart-submit" type="submit"/><input name="_D:moveToPurchaseInfo" value=" " type="hidden"/><div style="display:none"><input name="_DARGS" value="/store/sitewide/header/head.jsp.cartForm" type="hidden"/> </div></form></div>
+			</ul>
+	<div id="bag-feedback"></div>
+	<!-- add rlp -->
+	
+
+</div>
+							</div>
+						  </div>
+
+								<div class="headNavCont">
+           							<div class="row top-nav2 rowContainer" id="navContainer">
+									
+										<div class="medium-2  columns">
+										<a href="http://www.rue21.com/store/"><img alt="" src="/store/resources/images/logos/logo.png" class="logo"></a>
+										</div>
+										<div class="medium-7 columns">
+<nav class="primary-nav ">
+<ul>
+	<li>
+		<a id="newarrivals" href="/store/new-arrivals/_/N-1z140vz">New Arrivals</a><ul class="subMenu hoverMe closeParentCont" style="display: none;">
+		<li >
+		<div class="right crossNavIcon">
+		<a href="#">
+			<img alt="" src="/store/resources/images/icons/icon-cross-menu.png">
+		</a>
+		</div>
+		<div class="clearfix"></div>
+		<ul>
+				<li>
+    		 	<a href="/store/girls/new-arrivals/_/N-952Z1z140vz">Girls</a></li>
+    			
+    		<li>
+    		 	<a href="/store/guys/new-arrivals/_/N-97iZ1z140vz">Guys</a></li>
+    			
+    		<li>
+    		 	<a href="/store/plus/new-arrivals/_/N-99fZ1z140vz">Plus</a></li>
+    			
+    		<li>
+    		 	<a href="/store/shoes/new-arrivals/_/N-9b3Z1z140vz">Shoes</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/new-arrivals/_/N-92lZ1z140vz">Accessories</a></li>
+    			
+    		</ul>
+			</li>
+		</ul>
+		</li>
+		<li>
+		<a id="girls" href="/store/girls/_/N-952">Girls</a><ul class="subMenu hoverMe closeParentCont" style="display: none;">
+		<li >
+		<div class="right crossNavIcon">
+		<a href="#">
+			<img alt="" src="/store/resources/images/icons/icon-cross-menu.png">
+		</a>
+		</div>
+		<div class="clearfix"></div>
+		<ul>
+				<li>
+    		 	<a href="/store/girls/dresses/_/N-96t">Dresses</a></li>
+    			
+    		<li>
+    		 	<a href="/store/girls/blouses-shirts/_/N-97d">Blouses & Shirts</a></li>
+    			
+    		<li>
+    		 	<a href="/store/girls/tees/_/N-956">Tees</a></li>
+    			
+    		<li>
+    		 	<a href="/store/girls/graphic-tees-tanks/_/N-96q">Graphic Tees & Tanks</a></li>
+    			
+    		<li>
+    		 	<a href="/store/girls/tank-tops/_/N-959">Tank Tops</a></li>
+    			
+    		<li>
+    		 	<a href="/store/girls/crop-tops/_/N-973">Crop Tops</a></li>
+    			
+    		<li>
+    		 	<a href="/store/girls/sweaters/_/N-95k">Sweaters</a></li>
+    			
+    		<li>
+    		 	<a href="/store/girls/cardigans-wraps/_/N-974">Cardigans & Wraps</a></li>
+    			
+    		<li>
+    		 	<a href="/store/girls/kimonos/_/N-96a">Kimonos</a></li>
+    			
+    		<li>
+    		 	<a href="/store/girls/sweatshirts-hoodies/_/N-95j">Sweatshirts & Hoodies</a></li>
+    			
+    		<li>
+    		 	<a href="/store/girls/jackets-coats/_/N-96p">Jackets & Coats</a></li>
+    			
+    		<li>
+    		 	<a href="/store/girls/activewear/_/N-97h">Activewear</a></li>
+    			
+    		</ul>
+			<ul>
+				<li>
+    		 	<a href="/store/girls/jeans/_/N-96c">Jeans</a></li>
+    			
+    		<li>
+    		 	<a href="/store/girls/joggers/_/N-96b">Joggers</a></li>
+    			
+    		<li>
+    		 	<a href="/store/girls/pants/_/N-964">Pants</a></li>
+    			
+    		<li>
+    		 	<a href="/store/girls/leggings/_/N-969">Leggings</a></li>
+    			
+    		<li>
+    		 	<a href="/store/girls/skirts/_/N-95r">Skirts</a></li>
+    			
+    		<li>
+    		 	<a href="/store/girls/shorts/_/N-95z">Shorts</a></li>
+    			
+    		<li>
+    		 	<a href="/store/girls/bras/_/N-975">Bras</a></li>
+    			
+    		<li>
+    		 	<a href="/store/girls/undies/_/N-953">Undies</a></li>
+    			
+    		<li>
+    		 	<a href="/store/girls/sleepwear/_/N-95l">Sleepwear</a></li>
+    			
+    		<li>
+    		 	<a href="/store/girls/swim/_/N-95d">Swim</a></li>
+    			
+    		<li>
+    		 	<a href="/store/shoes/girls-shoes/_/N-9b6">Girls Shoes</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/perfume/_/N-930">Perfume</a></li>
+    			
+    		</ul>
+			<ul id="featureHeading" class="featureHeading">
+		
+			<li>Features</li>
+			    	<li>
+				    		<a href="/store/girls/best-sellers/_/N-952Z1z140vx">Best Sellers</a><a href="/store/includes/"></a></li>
+		    		<li>
+				    		<a href="/store/girls/new-arrivals/_/N-952Z1z140vz">New Arrivals</a><a href="/store/includes/"></a></li>
+		    		<li>
+				    		<a href="/store/girls/online-exclusives/_/N-952Z1z140we">Online Exclusives</a><a href="/store/includes/"></a></li>
+		    		<li>
+				    		<a href="/store/trends">Trends</a><a href="/store/includes/"></a></li>
+		    		<li>
+				    		<a href="/store/trends/wild-blue-x-sadie-robertson/girls/_/N-9f9Z952?ici=MegaNavigationFeature&icn=Girls_Sadie"><font style="color:#000000">Wild Blue x Sadie Robertson</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/collegiate-collection/girls/_/N-9c3Z952?ici=MegaNavigationFeature&icn=Girls_Girls_Collegiate"><font style="color:#000000">Collegiate Collection</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/nba-shop/girls/_/N-9c8Z952?ici=MegaNavigationFeature&icn=Girls_NBA_Girls"><font style="color:#000000">NBA Shop</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/indigo-girls/girls/_/N-9c7Z952?ici=MegaNavigationFeature&icn=Girls_Indigo_Girls_Girls"><font style="color:#000000">Indigo Girls</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/liberty-bell/girls/_/N-9iaZ952?ici=MegaNavigationFeature&icn=Girls_Liberty_Bell_Girls"><font style="color:#000000">Liberty Bell</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/sail-away/girls/_/N-9gnZ952?ici=MegaNavigationFeature&icn=Girls_Sail_Away_Girls"><font style="color:#000000">Sail Away</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/black-white/girls/_/N-9c2Z952?ici=MegaNavigationFeature&icn=Girls_BW_Girls"><font style="color:#000000">Black & White</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/pretty-utilitarian/girls/_/N-9c0Z952?ici=MegaNavigationFeature&icn=Girls_Pretty_Utilitarian_Girls"><font style="color:#000000">Pretty Utilitarian</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/2-gym-or-not-2-gym/girls/_/N-9gmZ952?ici=MegaNavigationFeature&icn=Girls_2_Gym_Girls"><font style="color:#000000">2 Gym Or Not 2 Gym</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/getaway/girls/_/N-9gqZ952?ici=MegaNavigationFeature&icn=Girls_Getaway_Girls"><font style="color:#000000">Getaway</font></a></li>
+		    		</ul>
+		</li>
+		</ul>
+		</li>
+		<li>
+		<a id="guys" href="/store/guys/_/N-97i">Guys</a><ul class="subMenu hoverMe closeParentCont" style="display: none;">
+		<li >
+		<div class="right crossNavIcon">
+		<a href="#">
+			<img alt="" src="/store/resources/images/icons/icon-cross-menu.png">
+		</a>
+		</div>
+		<div class="clearfix"></div>
+		<ul>
+				<li>
+    		 	<a href="/store/guys/joggers/_/N-98d">Joggers</a></li>
+    			
+    		<li>
+    		 	<a href="/store/guys/jeans/_/N-98i">Jeans</a></li>
+    			
+    		<li>
+    		 	<a href="/store/guys/pants/_/N-984">Pants</a></li>
+    			
+    		<li>
+    		 	<a href="/store/guys/shorts/_/N-97r">Shorts</a></li>
+    			
+    		<li>
+    		 	<a href="/store/guys/swim/_/N-9ii">Swim</a></li>
+    			
+    		<li>
+    		 	<a href="/store/guys/graphic-tees/_/N-98p">Graphic Tees</a></li>
+    			
+    		<li>
+    		 	<a href="/store/guys/short-sleeve-tees/_/N-97z">Short Sleeve Tees</a></li>
+    			
+    		<li>
+    		 	<a href="/store/guys/long-sleeve-tees/_/N-989">Long Sleeve Tees</a></li>
+    			
+    		<li>
+    		 	<a href="/store/guys/tanks/_/N-97k">Tanks</a></li>
+    			
+    		<li>
+    		 	<a href="/store/guys/shirts/_/N-983">Shirts</a></li>
+    			
+    		<li>
+    		 	<a href="/store/guys/sweatshirts-hoodies/_/N-97l">Sweatshirts & Hoodies</a></li>
+    			
+    		<li>
+    		 	<a href="/store/guys/sweaters/_/N-97p">Sweaters</a></li>
+    			
+    		</ul>
+			<ul>
+				<li>
+    		 	<a href="/store/guys/jackets-coats/_/N-98n">Jackets & Coats</a></li>
+    			
+    		<li>
+    		 	<a href="/store/guys/accessories/_/N-98w">Accessories</a></li>
+    			
+    		<li>
+    		 	<a href="/store/guys/boxers-socks/_/N-98s">Boxers & Socks</a></li>
+    			
+    		<li>
+    		 	<a href="/store/guys/cologne/_/N-98q">Cologne</a></li>
+    			
+    		<li>
+    		 	<a href="/store/guys/guys-shoes/_/N-98o">Guys Shoes</a></li>
+    			
+    		<li>
+    		 	<a href="/store/guys/hats/_/N-9gw">Hats</a></li>
+    			
+    		<li>
+    		 	<a href="/store/guys/cold-weather/_/N-9g7">Cold Weather</a></li>
+    			
+    		</ul>
+			<ul id="featureHeading" class="featureHeading">
+		
+			<li>Features</li>
+			    	<li>
+				    		<a href="/store/guys/best-sellers/_/N-97iZ1z140vx">Best Sellers</a><a href="/store/includes/"></a></li>
+		    		<li>
+				    		<a href="/store/guys/new-arrivals/_/N-97iZ1z140vz">New Arrivals</a><a href="/store/includes/"></a></li>
+		    		<li>
+				    		<a href="/store/guys/online-exclusives/_/N-97iZ1z140we">Online Exclusives</a><a href="/store/includes/"></a></li>
+		    		<li>
+				    		<a href="/store/trends">Trends</a><a href="/store/includes/"></a></li>
+		    		<li>
+				    		<a href="/store/trends/nba-shop/guys/_/N-9c8Z97i?ici=MegaNavigationFeature&icn=Guys_NBA_Guys"><font style="color:#000000">NBA Shop</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/long-lines/guys/_/N-9fyZ97i?ici=MegaNavigationFeature&icn=Guys_Long_Length"><font style="color:#000000">Long Lines</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/collegiate-collection/guys/_/N-9c3Z97i?ici=MegaNavigationFeature&icn=Guys_Guys-Collegiate"><font style="color:#000000">Collegiate Collection</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/into-the-blue/_/N-9gr?ici=MegaNavigationFeature&icn=Guys_Into_the_Blue"><font style="color:#000000">Into the Blue</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/sail-away/guys/_/N-9gnZ97i?ici=MegaNavigationFeature&icn=Guys_Sail_Away_Guys"><font style="color:#000000">Sail Away</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/black-white/guys/_/N-9c2Z97i?ici=MegaNavigationFeature&icn=Guys_BW_Guys"><font style="color:#000000">Black & White</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/florals/guys/_/N-9goZ97i?ici=MegaNavigationFeature&icn=Guys_Florals"><font style="color:#000000">Florals</font></a></li>
+		    		</ul>
+		</li>
+		</ul>
+		</li>
+		<li>
+		<a id="plus" href="/store/plus/_/N-99f">Plus</a><ul class="subMenu hoverMe closeParentCont" style="display: none;">
+		<li >
+		<div class="right crossNavIcon">
+		<a href="#">
+			<img alt="" src="/store/resources/images/icons/icon-cross-menu.png">
+		</a>
+		</div>
+		<div class="clearfix"></div>
+		<ul>
+				<li>
+    		 	<a href="/store/plus/plus-dresses/_/N-9ag">Plus Dresses</a></li>
+    			
+    		<li>
+    		 	<a href="/store/plus/plus-blouses-shirts/_/N-9at">Plus Blouses & Shirts</a></li>
+    			
+    		<li>
+    		 	<a href="/store/plus/plus-tees/_/N-99h">Plus Tees</a></li>
+    			
+    		<li>
+    		 	<a href="/store/plus/plus-tank-tops/_/N-99k">Plus Tank Tops</a></li>
+    			
+    		<li>
+    		 	<a href="/store/plus/plus-graphic-tees-tanks/_/N-9af">Plus Graphic Tees & Tanks</a></li>
+    			
+    		<li>
+    		 	<a href="/store/plus/plus-sweaters/_/N-99q">Plus Sweaters</a></li>
+    			
+    		<li>
+    		 	<a href="/store/plus/plus-cardigans-wraps/_/N-9ar">Plus Cardigans & Wraps</a></li>
+    			
+    		<li>
+    		 	<a href="/store/plus/plus-sweatshirts-hoodies/_/N-99p">Plus Sweatshirts & Hoodies</a></li>
+    			
+    		<li>
+    		 	<a href="/store/plus/plus-jackets-coats/_/N-9ae">Plus Jackets & Coats</a></li>
+    			
+    		<li>
+    		 	<a href="/store/plus/plus-activewear/_/N-9ax">Plus Activewear</a></li>
+    			
+    		<li>
+    		 	<a href="/store/plus/plus-shorts/_/N-99x">Plus Shorts</a></li>
+    			
+    		<li>
+    		 	<a href="/store/plus/plus-skirts/_/N-99r">Plus Skirts</a></li>
+    			
+    		</ul>
+			<ul>
+				<li>
+    		 	<a href="/store/plus/plus-jeans/_/N-9a3">Plus Jeans</a></li>
+    			
+    		<li>
+    		 	<a href="/store/plus/plus-pants/_/N-99z">Plus Pants</a></li>
+    			
+    		<li>
+    		 	<a href="/store/plus/plus-joggers/_/N-9a2">Plus Joggers</a></li>
+    			
+    		<li>
+    		 	<a href="/store/plus/plus-leggings/_/N-9a0">Plus Leggings</a></li>
+    			
+    		<li>
+    		 	<a href="/store/plus/plus-bras/_/N-9as">Plus Bras</a></li>
+    			
+    		<li>
+    		 	<a href="/store/plus/plus-undies-shapewear/_/N-99g">Plus Undies & Shapewear</a></li>
+    			
+    		<li>
+    		 	<a href="/store/plus/plus-swim/_/N-99l">Plus Swim</a></li>
+    			
+    		<li>
+    		 	<a href="/store/plus/plus-accessories/_/N-9ay">Plus Accessories</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/perfume/_/N-930">Perfume</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/bags-&-wallets/_/N-94r">Bags & Wallets</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/sunglasses/_/N-92s">Sunglasses</a></li>
+    			
+    		</ul>
+			<ul id="featureHeading" class="featureHeading">
+		
+			<li>Features</li>
+			    	<li>
+				    		<a href="/store/plus/best-sellers/_/N-99fZ1z140vx">Best Sellers</a><a href="/store/includes/"></a></li>
+		    		<li>
+				    		<a href="/store/plus/new-arrivals/_/N-99fZ1z140vz">New Arrivals</a><a href="/store/includes/"></a></li>
+		    		<li>
+				    		<a href="/store/plus/online-exclusives/_/N-99fZ1z140we">Online Exclusives</a><a href="/store/includes/"></a></li>
+		    		<li>
+				    		<a href="/store/trends">Trends</a><a href="/store/includes/"></a></li>
+		    		<li>
+				    		<a href="/store/trends/collegiate-collection/plus/_/N-9c3Z99f?ici=MegaNavigationFeature&icn=Plus_Plus_Collegiate"><font style="color:#000000">Collegiate Collection</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/nba-shop/plus/_/N-9c8Z99f?ici=MegaNavigationFeature&icn=Plus_NBA_Plus"><font style="color:#000000">NBA Shop</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/indigo-girls/plus/_/N-9c7Z99f?ici=MegaNavigationFeature&icn=Plus_Indigo_Girls_Plus"><font style="color:#000000">Indigo Girls</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/liberty-bell/plus/_/N-9iaZ99f?ici=MegaNavigationFeature&icn=Plus_Liberty_Bell_Plus"><font style="color:#000000">Liberty Bell</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/sail-away/plus/_/N-9gnZ99f?ici=MegaNavigationFeature&icn=Plus_Sail_Away_Plus"><font style="color:#000000">Sail Away</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/black-white/plus/_/N-9c2Z99f?ici=MegaNavigationFeature&icn=Plus_BW_Plus"><font style="color:#000000">Black & White</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/pretty-utilitarian/plus/_/N-9c0Z99f?ici=MegaNavigationFeature&icn=Plus_Pretty_Utilitarian_Plus"><font style="color:#000000">Pretty Utilitarian</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/2-gym-or-not-2-gym/plus/_/N-9gmZ99f?ici=MegaNavigationFeature&icn=Plus_2_Gym_Plus"><font style="color:#000000">2 Gym Or Not 2 Gym</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/getaway/plus/_/N-9gqZ99f?ici=MegaNavigationFeature&icn=Plus_Getaway_Plus"><font style="color:#000000">Getaway</font></a></li>
+		    		</ul>
+		</li>
+		</ul>
+		</li>
+		<li>
+		<a id="shoes" href="/store/shoes/_/N-9b3">Shoes</a><ul class="subMenu hoverMe closeParentCont" style="display: none;">
+		<li >
+		<div class="right crossNavIcon">
+		<a href="#">
+			<img alt="" src="/store/resources/images/icons/icon-cross-menu.png">
+		</a>
+		</div>
+		<div class="clearfix"></div>
+		<ul>
+				<li>
+    		 	<a href="/store/shoes/girls-shoes/_/N-9b6">Girls Shoes</a></li>
+    			
+    		<li>
+    		 	<a href="/store/shoes/guys-shoes/_/N-9b5">Guys Shoes</a></li>
+    			
+    		</ul>
+			<ul id="featureHeading" class="featureHeading">
+		
+			<li>Features</li>
+			    	<li>
+				    		<a href="/store/shoes/best-sellers/_/N-9b3Z1z140vx">Best Sellers</a><a href="/store/includes/"></a></li>
+		    		<li>
+				    		<a href="/store/shoes/new-arrivals/_/N-9b3Z1z140vz">New Arrivals</a><a href="/store/includes/"></a></li>
+		    		<li>
+				    		<a href="/store/shoes/online-exclusives/_/N-9b3Z1z140we">Online Exclusives</a><a href="/store/includes/"></a></li>
+		    		<li>
+				    		<a href="/store/trends">Trends</a><a href="/store/includes/"></a></li>
+		    		<li>
+				    		<a href="/store/trends/indigo-girls/shoes/_/N-9c7Z9b3?ici=MegaNavigationFeature&icn=Shoes_Indigo_Girls_Shoes"><font style="color:#000000">Indigo Girls</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/liberty-bell/shoes/_/N-9iaZ9b3?ici=MegaNavigationFeature&icn=Shoes_Liberty_Bell_Shoes"><font style="color:#000000">Liberty Bell</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/sail-away/shoes/_/N-9gnZ9b3?ici=MegaNavigationFeature&icn=Shoes_Sail_Away_Shoes"><font style="color:#000000">Sail Away</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/black-white/shoes/_/N-9c2Z9b3?ici=MegaNavigationFeature&icn=Shoes_BW_Shoes"><font style="color:#000000">Black & White</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/pretty-utilitarian/shoes/_/N-9c0Z9b3?ici=MegaNavigationFeature&icn=Shoes_Pretty_Utilitarian_Shoes"><font style="color:#000000">Pretty Utilitarian</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/getaway/shoes/_/N-9gqZ9b3?ici=MegaNavigationFeature&icn=Shoes_Getaway_Shoes"><font style="color:#000000">Getaway</font></a></li>
+		    		</ul>
+		</li>
+		</ul>
+		</li>
+		<li>
+		<a id="accessories" href="/store/accessories/_/N-92l">Accessories</a><ul class="subMenu hoverMe closeParentCont" style="display: none;">
+		<li >
+		<div class="right crossNavIcon">
+		<a href="#">
+			<img alt="" src="/store/resources/images/icons/icon-cross-menu.png">
+		</a>
+		</div>
+		<div class="clearfix"></div>
+		<ul>
+				<li>
+    		 	<a href="/store/accessories/bags-wallets/_/N-94r">Bags & Wallets</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/jewelry-watches/_/N-931">Jewelry & Watches</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/beauty/_/N-94g">Beauty</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/perfume/_/N-930">Perfume</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/scarves/_/N-92y">Scarves</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/hats-beanies/_/N-93n">Hats & Beanies</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/socks-tights/_/N-92t">Socks & Tights</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/hair-accessories/_/N-93o">Hair Accessories</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/sunglasses/_/N-92s">Sunglasses</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/belts/_/N-94f">Belts</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/tech/_/N-92m">Tech</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/decor-gifts/_/N-93u">Decor & Gifts</a></li>
+    			
+    		</ul>
+			<ul>
+				<li>
+    		 	<a href="/store/accessories/selfie-sticks/_/N-92x">Selfie Sticks</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/shop-by-room/_/N-9fi">Shop by Room</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/bedding/_/N-9hd">Bedding</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/pillows/_/N-9he">Pillows</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/wall-art/_/N-9hf">Wall Art</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/drinkware/_/N-9hk">Drinkware</a></li>
+    			
+    		<li>
+    		 	<a href="/store/accessories/hair-tools/_/N-9ic">Hair Tools</a></li>
+    			
+    		</ul>
+			<ul id="featureHeading" class="featureHeading">
+		
+			<li>Features</li>
+			    	<li>
+				    		<a href="/store/accessories/best-sellers/_/N-92lZ1z140vx">Best Sellers</a><a href="/store/includes/"></a></li>
+		    		<li>
+				    		<a href="/store/accessories/new-arrivals/_/N-92lZ1z140vz">New Arrivals</a><a href="/store/includes/"></a></li>
+		    		<li>
+				    		<a href="/store/accessories/online-exclusives/_/N-92lZ1z140we">Online Exclusives</a><a href="/store/includes/"></a></li>
+		    		<li>
+				    		<a href="/store/trends">Trends</a><a href="/store/includes/"></a></li>
+		    		<li>
+				    		<a href="/store/trends/indigo-girls/accessories/_/N-9c7Z92l?ici=MegaNavigationFeature&icn=Accessories_Indigo_Girls_Access"><font style="color:#000000">Indigo Girls</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/liberty-bell/accessories/_/N-9iaZ92l?ici=MegaNavigationFeature&icn=Accessories_Liberty_Bell_Accessories"><font style="color:#000000">Liberty Bell</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/sail-away/accessories/_/N-9gnZ92l?ici=MegaNavigationFeature&icn=Accessories_Sail_Away_Access"><font style="color:#000000">Sail Away</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/black-white/accessories/_/N-9c2Z92l?ici=MegaNavigationFeature&icn=Accessories_BW_Accessories"><font style="color:#000000">Black & White</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/pretty-utilitarian/accessories/_/N-9c0Z92l?ici=MegaNavigationFeature&icn=Accessories_Pretty_Utilitarian_Access"><font style="color:#000000">Pretty Utilitarian</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/getaway/accessories/_/N-9gqZ92l?ici=MegaNavigationFeature&icn=Accessories_Getaway_Access"><font style="color:#000000">Getaway</font></a></li>
+		    		<li>
+				    		<a href="/store/trends/geo-jewelry/accessories/_/N-9gpZ92l?ici=MegaNavigationFeature&icn=Accessories_Geo_Jewelry"><font style="color:#000000">Geo Jewelry</font></a></li>
+		    		</ul>
+		</li>
+		</ul>
+		</li>
+		<li>
+		<a id="" href="/store/sale"><span style="color:red;">SALE</span></a><ul class="subMenu hoverMe closeParentCont" style="display: none;">
+		<li >
+		<div class="right crossNavIcon">
+		<a href="#">
+			<img alt="" src="/store/resources/images/icons/icon-cross-menu.png">
+		</a>
+		</div>
+		<div class="clearfix"></div>
+		<ul>
+				<li>
+    		 	<a href="/store/sale/girls/_/N-952Z1z140wd">Girls</a></li>
+    			
+    		<li>
+    		 	<a href="/store/sale/guys/_/N-97iZ1z140wd">Guys</a></li>
+    			
+    		<li>
+    		 	<a href="/store/sale/plus/_/N-99fZ1z140wd">Plus</a></li>
+    			
+    		<li>
+    		 	<a href="/store/sale/shoes/_/N-9b3Z1z140wd">Shoes</a></li>
+    			
+    		<li>
+    		 	<a href="/store/sale/accessories/_/N-92lZ1z140wd">Accessories</a></li>
+    			
+    		</ul>
+			</li>
+		</ul>
+		</li>
+		</ul>
+	</nav>
+    </div>
+ <div class="medium-3 columns">
+										<div class="searchCont">
+<input type="hidden" name="Dy" value="1"/>
+				<input type="hidden" name="Nty" value="1"/>
+			<form action="/store/search" id="searchForm" requiresSessionConfirmation="false">
+				
+				<input id="searchBox" class="reuSearch" Placeholder="Search" name="Ntt" value="" type="text" autocomplete="off"/>
+		    		<button class="searchIcon" type="image" id="searchGlass"></button> 
+				
+				
+			 </form> 
+	
+	</div>
+
+<script language="javascript">
+			$(function(){
+				$("#searchGlass").on("click", function(){
+					if($("#searchBox").val() == "") {
+						return false;
+						} else{
+						return true;
+						}
+					})
+			})
+
+            $(document).ready(
+                function(event) {
+                    $("#searchBox").endecaSearchSuggest({
+                        minAutoSuggestInputLength: 2,
+                        autoSuggestServiceUrl: '/store/cartridges/SearchBox/RueAutoSuggest.jsp',
+                        collection: "/content/Shared/AutoSuggest",
+                        searchUrl: '',
+                        refinements: '',
+                        navFilter: "",
+                        containerClass:'rueSearchBox',
+                        defaultImage:'/store/store/img/no_image_auto_suggest.gif;jsessionid=90C1FF8F4D2CA0C8906FBCA7C07917AD.rue-prd-dal-app-01-p-app1'
+                    });
+                    $('#searchBox').on('keydown',function(e){
+                    	if($.trim($(".rueSearchBox").html())=="")$(".rueSearchBox").hide();
+                      var code = e.keyCode || e.which;
+                      var $c = $(this);
+                      var searchItems = $c.parent().siblings('.rueSearchBox').find('.searchItems ul');
+                      var selectedOption= searchItems.find('li.selected'),nextSelection;
+                        if(code === 13){
+                          if ($c.val() != "") {
+                            if(selectedOption.length != 0){
+                              var $a = selectedOption.find('a');
+                              $c.val($a.text());
+                              window.location.href = $a.attr('href'); 
+                            }
+                            else $('#searchForm').submit();
+                          } else {
+                            $("#serarchError").removeClass("hidden").html("Please enter a search term");
+                            return false;
+                          }
+                        } else if(code == 40 || code == 38){                         
+                          if(code == 40) {
+                            if(selectedOption.length == 0) {
+                              nextSelection = searchItems.children(':first');
+                            } else {
+                              nextSelection = selectedOption.next();
+                              if(nextSelection.length == 0) nextSelection = selectedOption;
+                              selectedOption.removeClass('selected');
+                            }                            
+                          } else {
+                            nextSelection = selectedOption.prev();
+                            if(nextSelection.length == 0) nextSelection = selectedOption;
+                            selectedOption.removeClass('selected');                            
+                          }
+                          nextSelection.addClass('selected');
+                        }       
+                    });
+                  }
+            );
+        </script></div>
+									</div><!-- top-nav2 -->
+								</div>
+
+							<!--</div> --><!-- header-buttons -->
+							
+						</header>
+						</section>
+					</div>
+				</div>
+				
+			<!-- Changed by TAISTech for RUE:3082-Overlay for session timeout Status code: 409 starts -->
+	<div id="sessionOverlay" class="reveal-modal small"></div>
+<!-- Changed by TAISTech for RUE:3082- Overlay for session timeout Status code: 409 ends -->
+
+<!-- End /sitewide/header/head.jsp -->
+<script> var product_id ='0015-001185-0001438-0068'; </script>
+
+	<div class="clearfix"></div>
+	<div id="page-content">
+	
+	<!-- changes for schema tag for endeca driven pages starts -->
+	<div itemscope itemtype="http://schema.org/Organization" style="display:none">
+			<a itemprop="url" href="http://www.rue21.com/store/jump/product/Lacy-Pink-Peplum-Blouse/0015-001185-0001438-0068"><div itemprop="name"><strong>rue21</strong></div></a>
+			<div itemprop="description"></div>
+		</div>
+	<!-- changes for schema tag for endeca driven pages ends -->
+	
+	<div class="container">
+	<div class="brdBot">
+				<div class="row mainContainer" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+					<ul class="breadcrumbs" data-context="breadCrumb" itemprop="breadcrumb">
+		<li data-context="breadCrumbItem"><a data-context="breadCrumbItemLink" href="/store/">Home</a></li>
+		<li data-context="breadCrumbItem">
+								<a data-context="breadCrumbItemLink" href="/store/girls/_/N-952">Girls</a></li data-context="breadCrumbItem">
+						<li data-context="breadCrumbItem">
+								<a data-context="breadCrumbItemLink" href="/store/girls/blouses-shirts/_/N-97d">Blouses &amp; Shirts</a></li data-context="breadCrumbItem">
+						<li data-context="breadCrumbItem">
+								<a data-context="breadCrumbItemLink" href="/store/girls/blouses-shirts-blouses/_/N-97e">Blouses</a></li data-context="breadCrumbItem">
+						<li data-context="breadCrumbItem">Lacy Pink Peplum Blouse</li>
+	</ul>
+<!-- 
+on PDP to display navigational breadcrumb save plp nvalue=<PLP breadcrum url> in session and pass nvalue
+ as request parameter to PDP
+ -->
+</div>
+			</div>
+	<div class="row mainContainer" id="main-content">
+		<div class="medium-10 medium-centered large-centered columns mrgnT20 pdpCont" itemscope itemtype="http://schema.org/Product">
+		
+		
+						<script> var olapicProductId ='0015-001185-0001438'; </script>
+						<!-- start of the productImage Section -->	
+						
+					 <div class="medium-6 columns pdpLeftCol product-image">
+								<div id="product-image" itemprop="image" data-alttext="image of Lacy Pink Peplum Blouse" data-src-template="0015_001185_0001438_COLOR_m" data-selected-color="0068"></div>
+								<!-- REMOVING THESE AS DISCUSSED -->
+								<!-- <div class="view-larger-tips">
+									<a class="detail-view-larger button tiny orange" data-reveal-id="detail-box" href="#">View Larger</a>
+									<img title="You can hover over the image to zoom, or click the view larger button." src="/store/resources/images/icons/mag-glass-icon.jpg" class="detail-view-zoom has-tip tip-right" data-tooltip data-options="disable-for-touch:true" />
+								</div> -->
+								<div id="alternate-images" class=""></div>
+								<span class="layout-placeholder">.</span>
+							</div> 
+			
+			<!-- Start of the ProductInfo Section -->
+			<div class="medium-6 columns">
+				<div class="pdpHeading " id="productDisplayName" itemprop="name">
+				Lacy Pink Peplum Blouse</div>
+				<div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="hide-for-medium-up">
+							<span id="pdpItemPrice" itemprop="price"> $19.99</span>
+								</div>
+					<!-- Changed as a part of RUE-2472 by TAISTech starts: 
+						     below div is displayed by ajax based on applicable deal returned by RUEDealsDisplayDroplet
+						     which is invoked in init.js. -->
+						
+						<div id="dealsmain" class="product-discount" style="display:none">
+							<div id="dealTitle" class="promo-title"></div>
+								<p id="dealDescription" class="promo-description" style="display: none">
+									<a href="#" data-deal-text="">Details</a>
+								</p>
+						</div>
+						<!-- Changed as a part of RUE-2472 by TAISTech ends: -->
+						<div id="prodOnlyFewLeft">
+							</div>
+						<!-- include sku picker page -->
+				<!-- add rlp -->
+	<!-- add rlp -->
+	<form id="addToCartForm" data-ajax="true" action="/store/browse/product.jsp?_DARGS=/store/browse/fragments/skuPicker.jsp.addToCartForm" class="product-form" method="post"><div style="display:none"><input name="_dyncharset" value="utf-8" type="hidden"/> </div><div style="display:none"><input name="_dynSessConf" value="6566371932941615761" type="hidden"/> </div><input name="addItemToOrderErrorURL" value="/store/browse/product.jsp" type="hidden"/><input name="_D:addItemToOrderErrorURL" value=" " type="hidden"/><input name="addItemToOrderSuccessURL" value="/store/browse/product.jsp" type="hidden"/><input name="_D:addItemToOrderSuccessURL" value=" " type="hidden"/><input name="ajaxAddItemToOrderSuccessURL" value="/store/browse/json/cartSuccess.jsp" type="hidden"/><input name="_D:ajaxAddItemToOrderSuccessURL" value=" " type="hidden"/><input name="ajaxErrorURL" value="/store/browse/json/cartError.jsp" type="hidden"/><input name="_D:ajaxErrorURL" value=" " type="hidden"/><input name="productId" value="" class="input-selected-productId" type="hidden"/><input name="_D:productId" value=" " type="hidden"/><input name="/atg/commerce/order/purchase/CartModifierFormHandler.catalogRefIds" value="" class="input-selected-sku" type="hidden"/><input name="_D:/atg/commerce/order/purchase/CartModifierFormHandler.catalogRefIds" value=" " type="hidden"/><div class="product-sku-errors"></div>
+				
+					<ul class="product-sku-color button-group"  itemprop="color"></ul>
+					
+                  	 <div class="clearfix"></div>
+
+					<ul>
+					<li id="size-header">
+					Available in these sizes:
+					</li>
+					<li>
+					<div class="sku-size-selector clearfix">
+						<ul class="product-sku-size button-group"></ul>
+					</div>
+					</li>
+					</ul>
+					<div class="clearfix"></div>
+					
+					<ul class="sizeChart">
+					<li>
+					<a href="http://www.rue21.com/store/jump/static/13300002" data-reveal-id="sizing-chart-modal" class="size-chart-icon">Size Chart
+						</a>
+					</li>
+				</ul>
+				
+				<ul id="quantity" class="quantity">
+				<li>Quantity:</li>
+				<li class="mrgnT5">
+					<input name="_D:quantity" value=" " type="hidden"></input><select data-role="none" name="quantity" value="1" class="input-quantity"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select></li>
+				</ul>
+				<ul>
+					<li>
+						<input name="colorId" value="" class="input-color-id" type="hidden"/><input name="_D:colorId" value=" " type="hidden"/><input type="hidden" name="sizeId" class="input-size-id">
+						<input type="hidden" name="colorName" class="input-color-name">
+						<input type="hidden" name="sizeName" class="input-size-name">
+						<input type="hidden" name="price" class="input-price">
+						<div class="addOrderItem">
+						<input id="addItemToOrder" name="addItemToOrder" value="ADD TO BAG" class="button rueAddToBag medium-8" type="submit"/><input name="_D:addItemToOrder" value=" " type="hidden"/></div>
+					</li>
+					</ul>
+					
+			<div style="display:none"><input name="_DARGS" value="/store/browse/fragments/skuPicker.jsp.addToCartForm" type="hidden"/> </div></form><ul class="pdpTxt">
+							<div id="productDescription" itemprop="description">
+										<!-- removed all code as this div will now be loaded by ajax for each color selection
+										modified by TAISTech for PDP redesign -->
+							</div>
+						</ul>
+					</div>
+			<div class="clearfix">
+		    </div>
+		</div>
+	</div>
+	<div class="pdpOlapic">
+		<script> var category_id = ''; </script>
+	<div id="olapic_specific_widget">
+	&nbsp;</div>
+<script>
+$("#olapic_specific_widget").after("<script type='text/javascript' src='https://photorankstatics-a.akamaihd.net/81b03e40475846d5883661ff57b34ece/static/frontend/latest/build.min.js'  data-olapic='olapic_specific_widget' data-instance='f4f53a0c389b48b41196f119c0ab4bde' data-apikey='3e8ee7baa745cb9977fcf9e35a6cb3555e8a94a98874573fc9c81031a510eb5a' data-tags="+"'"+olapicProductId+"'"+" async='async' />");
+</script></div>
+	<div id="monetate"></div>
+	</div></div>
+	<!-- This is the end of the PDP redesign -->
+						<script>
+		var MAINdata = MAINdata || {};
+		
+		MAINdata.pid = "0015-001185-0001438";
+		MAINdata.productData = {"0015-001185-0001438":{"name":"Lacy Pink Peplum Blouse","prodId":"0015-001185-0001438-0068","priceType":"regular","sizeChartUrl":"http://www.rue21.com/store/jump/static/13300002","defaultSku":"","defaultQty":"","enablePriceClarity":"true","colorPriceGroups":[{"colors":[{"id":"color_0067","displayName":"BURGUNDY","order":"","group":"BURGUNDY","swatch":"#900020"},{"id":"color_0068","displayName":"LIGHT PINK","order":"","group":"LIGHT PINK","swatch":"#fcd4de"}],"minListPrice":"19.99","maxListPrice":"19.99","minCurrentPrice":"19.99","maxCurrentPrice":"19.99","percentOff":"","dealTitle":"","dealText":""}],"products":[{"colorProductId":"0015-001185-0001438-0067","productDisplayName":"Lacy Burgundy Peplum Blouse","onlyFewLeft":"false"},{"colorProductId":"0015-001185-0001438-0068","productDisplayName":"Lacy Pink Peplum Blouse","onlyFewLeft":"false"}],"skus":[{"catalogRefId":"0021243522","price":"19.99","variants":{"sizeVariantType":{"id":"size_00178","displayName":"XS","order":"1","group":"Standard Sizes","swatch":"","priority":"1"},"colorVariantType":{"id":"color_0067","displayName":"BURGUNDY","order":"","group":"Red","swatch":"#900020","priority":""}}},{"catalogRefId":"0021243589","price":"19.99","variants":{"sizeVariantType":{"id":"size_00178","displayName":"XS","order":"1","group":"Standard Sizes","swatch":"","priority":"1"},"colorVariantType":{"id":"color_0068","displayName":"LIGHT PINK","order":"","group":"Pink","swatch":"#fcd4de","priority":""}}},{"catalogRefId":"0021243530","price":"19.99","variants":{"sizeVariantType":{"id":"size_00179","displayName":"S","order":"2","group":"Standard Sizes","swatch":"","priority":"2"},"colorVariantType":{"id":"color_0067","displayName":"BURGUNDY","order":"","group":"Red","swatch":"#900020","priority":""}}},{"catalogRefId":"0021243597","price":"19.99","variants":{"sizeVariantType":{"id":"size_00179","displayName":"S","order":"2","group":"Standard Sizes","swatch":"","priority":"2"},"colorVariantType":{"id":"color_0068","displayName":"LIGHT PINK","order":"","group":"Pink","swatch":"#fcd4de","priority":""}}},{"catalogRefId":"0021243548","price":"19.99","variants":{"sizeVariantType":{"id":"size_00180","displayName":"M","order":"4","group":"Standard Sizes","swatch":"","priority":"4"},"colorVariantType":{"id":"color_0067","displayName":"BURGUNDY","order":"","group":"Red","swatch":"#900020","priority":""}}},{"catalogRefId":"0021243605","price":"19.99","variants":{"sizeVariantType":{"id":"size_00180","displayName":"M","order":"4","group":"Standard Sizes","swatch":"","priority":"4"},"colorVariantType":{"id":"color_0068","displayName":"LIGHT PINK","order":"","group":"Pink","swatch":"#fcd4de","priority":""}}},{"catalogRefId":"0021243555","price":"19.99","variants":{"sizeVariantType":{"id":"size_00181","displayName":"L","order":"6","group":"Standard Sizes","swatch":"","priority":"6"},"colorVariantType":{"id":"color_0067","displayName":"BURGUNDY","order":"","group":"Red","swatch":"#900020","priority":""}}},{"catalogRefId":"0021243613","price":"19.99","variants":{"sizeVariantType":{"id":"size_00181","displayName":"L","order":"6","group":"Standard Sizes","swatch":"","priority":"6"},"colorVariantType":{"id":"color_0068","displayName":"LIGHT PINK","order":"","group":"Pink","swatch":"#fcd4de","priority":""}}},{"catalogRefId":"0021243563","price":"19.99","variants":{"sizeVariantType":{"id":"size_00182","displayName":"XL","order":"8","group":"Standard Sizes","swatch":"","priority":"8"},"colorVariantType":{"id":"color_0067","displayName":"BURGUNDY","order":"","group":"Red","swatch":"#900020","priority":""}}},{"catalogRefId":"0021243621","price":"19.99","variants":{"sizeVariantType":{"id":"size_00182","displayName":"XL","order":"8","group":"Standard Sizes","swatch":"","priority":"8"},"colorVariantType":{"id":"color_0068","displayName":"LIGHT PINK","order":"","group":"Pink","swatch":"#fcd4de","priority":""}}}]}}
+		var availColors = [],
+			availSizes = [],
+			colorNeeded = true,
+			sizeNeeded = true;
+	</script>
+<!-- Back to top -->
+	<div class="backButton cd-top1" id="back-to-top"><a href="javascript:void(0)"><img src="/store/resources/images/backtotop-btn.png" width="42" height="42" alt=""></a></div>
+
+	<script type="text/javascript">
+		var layoutMode = 'normal';
+	</script>
+	<!-- Start /views/common/footer/foot.jsp -->
+	<script> var currentYear ='2016'; </script>
+<footer class="clearfix">
+	<script> var category_id = ''; </script>
+	<div class="footer-first clearfix">
+	<div class="mainContainer">
+		<div class="medium-3 large-3 columns left footerTopBotPadd">
+			<ul class="footerColumn">
+				<li>
+					<a href="/store/jump/static/Store-Locator/store-locator?ici=footer_global&amp;icn=FindAStore" target="_blank" title="FIND A STORE">FIND A STORE</a></li>
+				<li>
+					<a href="/store/jump/static/About-Us/4400002?ici=footer_global&amp;icn=AboutUs" target="_self" title="ABOUT US">ABOUT US</a></li>
+				<li>
+					<a href="/store/jump/static/Contact-Us/contact?ici=footer_global&amp;icn=ContactUs" target="_self" title="CONTACT US">CONTACT US</a></li>
+				<li>
+					<a href="http://careers.rue21.com/?ici=footer_global&icn=Careers" target="_blank" title="CAREERS">CAREERS</a></li>
+			</ul>
+		</div>
+		<div class="medium-3 large-3 columns left footerTopBotPadd">
+			<ul class="footerColumn">
+				<li>
+					<a href="/store/jump/static/FAQs/faq?ici=footer_global&amp;icn=FAQs" target="_self" title="FAQs">FAQs</a></li>
+				<li>
+					<a href="/store/account/trackMyOrder.jsp?ici=footer_global&amp;icn=TrackMyOrder" target="_self" title="TRACK MY ORDER">TRACK MY ORDER</a></li>
+				<li>
+					<a href="/store/jump/static/Shipping/16000015?ici=footer_global&amp;icn=Shipping" target="_blank" title="SHIPPING">SHIPPING</a></li>
+				<li>
+					<a href="/store/jump/static/Returns--Exchanges-/14600002?ici=footer_global&amp;icn=Returns" target="_self" title="RETURNS">RETURNS</a></li>
+			</ul>
+		</div>
+		<div class="medium-3 large-3 columns left footerTopBotPadd">
+			<ul class="footerColumn">
+				<li>
+					<a href="/store/emailsignup.jsp?ici=footer_global&amp;icn=EmailSignup " target="_self" title="EMAIL SIGNUP">EMAIL SIGNUP</a></li>
+				<li>
+					<a href="/store/jump/static/gift-cards-and-egift-card/13000002?ici=footer_global&amp;icn=GiftCardsEGiftCards" target="_self" title="GIFT CARDS &amp; EGIFT CARDS">GIFT CARDS &amp; EGIFT CARDS</a></li>
+				<li>
+					<a href="/store/coupons?ici=footer_global&amp;icn=Coupons" target="_self" title="COUPONS">COUPONS</a></li>
+				<li>
+					<a href="/store/jump/static/Sitemap/11400002?ici=footer_global&amp;icn=SiteMap" target="_self" title="SITE MAP">SITE MAP</a></li>
+			</ul>
+		</div>
+		<div class="medium-3 large-3 columns left footerTopBotPadd">
+			<ul class="footerColumn">
+				<li>
+					<a href="/store/jump/static/Social-Responsibility/4400005?ici=footer_global&amp;icn=SocialResponsibility" target="_self" title="SOCIAL RESPONSIBILITY">SOCIAL RESPONSIBILITY</a></li>
+				<li>
+					<a href="/store/jump/static/Privacy-Policy/7600002?ici=footer_global&amp;icn=PrivacyPolicy" target="_self" title="">PRIVACY POLICY</a></li>
+				<li>
+					<a href="/store/jump/static/rue21-Terms-of-Use/11300002?ici=footer_global&amp;icn=TermsOfUse" target="_self" title="TERMS OF USE">TERMS OF USE</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="mainContainer footer-second">
+	<div class="small-12 medium-6 large-6 columns social-icons-all">
+		<ul>
+			<li>
+				<a href="http://www.facebook.com/rue21" target="_blank" title="facebook"><i class="fi-social-facebook"><span>facebook</span></i></a></li>
+			<li>
+				<a href="http://twitter.com/#!/rue21" target="_blank" title="twitter"><i class="fi-social-twitter"><span>twitter</span></i></a></li>
+			<li>
+				<a href="http://pinterest.com/rue21official/" target="_blank" title="pinterest"><i class="fi-social-pinterest"><span>pinterest</span></i></a></li>
+			<li>
+				<a href="http://instagram.com/rue21official" target="_blank" title="instagram"><i class="fi-social-instagram"><span>instagram</span></i></a></li>
+			<li>
+				<a href="http://rue21.tumblr.com" target="_blank" title="tumblr"><i class="fi-social-tumblr"><span>tumblr</span></i></a></li>
+		</ul>
+	</div>
+	<div class="small-12 medium-6 large-6 columns footer-links footer-copyright">
+		&copy;<script>
+document.write(currentYear);
+</script>&nbsp;rue21.com ALL RIGHTS RESERVED</div>
+</div></footer>
+</section>
+<script type="text/javascript">
+				<!-- add rlp -->
+	
+
+		var MAIN_CONSTANTS = {
+
+			/* paths */
+			siteRoot : 'http://www.rue21.com',
+			secureSiteRoot : 'https://www.rue21.com',
+			contextRoot : '/store',
+			sessionTimeoutUrl : 'http://www.rue21.com/store/error_timeout.jsp',
+			checkoutPath: '/checkout',
+			/* changed By TAISTech for RUE-3082 */
+			pdpSessionTimeoutMessage:'<h4>Page Timeout</h4><p>We\'re sorry but your page session has timed out due to inactivity.<br/>Please try adding items to your bag again!</p><div class="text-center"><button class="button large" id="sessionContinue" onclick="location.reload(true)">Continue</button></div>',
+			sessionTimeoutErrorCode:'409',
+			/* Added by TAISTech for RUE-3201 */
+			checkoutSessionTimeoutMsgGuest:'<h4>Page Timeout</h4><p class="guest-session-timeout-msg">We\'re sorry but your checkout session has timed out due to inactivity.<br/>Please continue to complete checkout.</p><div class="text-center"><button class="button large" id="sessionContinue" onclick="reloadSinglePageCheckout()">Continue</button></div>',
+			/* Added by TAISTech for RUE-3212 */
+			cartSessionTimeoutMsgGuest:'<h4>Page Timeout</h4><p>We\'re sorry but your session has timed out due to inactivity.<br/>Please select continue to proceed.</p><div class="text-center"><button class="button large" id="sessionContinue" onclick="location.reload(true)">Continue</button></div>',
+			
+			/* lang */
+			errorheader : 'Oops! We&#039;ve got errors:',
+			ajaxError : 'There was a problem loading the page.' ,
+
+			/* misc */
+			sessionTimeoutMillis : 1000 * 1860,
+
+			/* validation error messages */
+			errorMessages : {
+				email : 'Enter a valid email address.',
+				uspostal : 'Zip Code must be 5 digits.',
+				usphone : 'Phone Number must be 10 digits.',
+				numeric : {
+					named : 'only accepts numbers',
+					unnamed : 'This field only accepts numbers'
+				},
+				creditcard : 'Please enter a valid credit card number.',
+				required : {
+					named : 'is required.',
+					unnamed : 'This field is required.'
+				},
+				minlength : {
+					named : 'must contain 8 characters,  1 capital letter and 1 number.',
+					unnamed : 'Not enough characters'
+				},
+				maxlength : {
+					named : 'has too many characters',
+					unnamed : 'Too many characters'
+				},
+				matchPassword : 'Password and Confirm Password do not match.',
+				matchEmail : 'Email and Confirm Email do not match.',
+				qty : 'Please enter a valid quantity',
+				password : 'Password must contain 8 characters, 1 capital letter and 1 number.',
+				dateOfBirthDate : 'Please enter a valid birthday.',
+				dateOfBirthAge : 'You must be at least 13 years old to create an account.',
+				invalidGiftMessage : 'Your gift message must be less than 240 characters.',
+				alphanumeric:'This field only accepts alphanumeric values',
+				orderNumber:'Enter a valid order number.',
+				/* Changed by TAISTech for RUE-3291:Starts */
+				usPhoneValid:'Please enter a valid phone number.',
+				securityCode:'Security Code must be 3 or 4 digits.',
+				giftCard:'Please enter a valid gift card number.',
+				passwordMinlength:'Password must contain 8 characters,  1 capital letter and 1 number.'
+				/* Changed by TAISTech for RUE-3291:Ends */
+			}
+		};
+
+		window.productOptionsStatusJSON = {409 : function() {
+	    		sessionTimeoutMsg(MAIN_CONSTANTS.pdpSessionTimeoutMessage);
+	    	}
+	    };
+	    
+	/* Added by TAISTech for RUE-3201 */
+    window.checkoutOptionsStatusJSON = {409 : function() {
+	    		sessionTimeoutModal();
+	    	}
+	    };
+</script>
+
+			<script type="text/javascript" src="/store/resources/js/lib.rue.js?20160218_0620_633_CST"></script>
+
+			<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+					<script src="http://platform.tumblr.com/v1/share.js"></script>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
+				<!-- price slider sliding event for touch devices -->
+ 
+ <script>
+ $(function() {
+	  if($( "#slider-range" ).length){
+		minval=$( "#slider-range" ).data("min-val");
+		maxval=$( "#slider-range" ).data("max-val");
+		minSlider=parseInt($( "#slider-range" ).data("minslider-val")) || minval;
+		maxSlider=parseInt($( "#slider-range" ).data("maxslider-val")) || maxval;
+		var ContentItem = $( "#slider-range" ).data("content-item");
+		var uri=window.location.href;
+	     $( "#slider-range" ).slider({
+	      range: true,
+	      min: minval,
+	      max: maxval,
+	      values: [ minSlider, maxSlider ],
+	      slide: function( event, ui ) {
+	    	  if(ui.values[1]-ui.values[0]<1) return false;
+	    	  if(minval!==ui.values[0]) {
+	    		  $(".ui-slider-handle").eq(0).html("<em class='leftem'>$"+ui.values[0]+"</em>");
+	    	  }else{
+	    		  $(".ui-slider-handle").eq(0).html("");
+	    	  }
+	    	  if(maxval!==ui.values[1]) { 
+	    		  $(".ui-slider-handle").eq(1).html("<em>$"+ui.values[1]+"</em>");
+	    	  }else{
+	    		  $(".ui-slider-handle").eq(1).html("");
+	    	  }
+	      } ,
+	      change: function(event, ui){
+	    	if(minSlider!==ui.values[0] || maxSlider!==ui.values[1]){
+	      		if (uri.indexOf("?")==-1){
+	        		uri+="?Nf="+ContentItem+"|BTWN+"+ui.values[0]+"+"+ui.values[1];
+	        	}else{
+	        		if(uri.indexOf("?Nf")==-1){
+	        			if(uri.indexOf("&Nf")!==-1) uri=uri.substring(0, uri.indexOf("&Nf"));
+	        			uri+="&Nf="+ContentItem+"|BTWN+"+ui.values[0]+"+"+ui.values[1];
+	        		}else{
+	        			uri = uri.substring(0, uri.indexOf("?"));
+	            		uri+="?Nf="+ContentItem+"|BTWN+"+ui.values[0]+"+"+ui.values[1];
+	        		}
+	        	}
+	      		if(minval===ui.values[0] && maxval===ui.values[1]){
+	        		if (uri.indexOf("?Nf")!==-1 || uri.indexOf("&Nf")!==-1){
+	        			uri = uri.substring(0, uri.indexOf("?Nf")) || uri.substring(0, uri.indexOf("&Nf"));
+	            	}
+	        	}
+	          window.location.href = uri;
+	      	}
+	      } 
+	    }).draggable();
+	     
+	   if(minval!==minSlider) { 
+		   $(".ui-slider-handle").eq(0).html("<em class='leftem'>$"+minSlider+"</em>");
+	   }else{
+		   $(".ui-slider-handle").eq(0).html("");
+	   }
+	   if(maxval!==maxSlider) { 
+		   $(".ui-slider-handle").eq(1).html("<em>$"+maxSlider+"</em>");
+	   }else{
+		   $(".ui-slider-handle").eq(1).html("");
+	   }
+	 }
+ });
+  </script>
+	<script type="text/javascript">
+		    try {
+		        if (jQuery('h3:contains("Shop By Category")').length > 0 || jQuery('.sortBySection').length > 0 || jQuery('#productSort').length > 0) {
+		            var google_tag_params = {
+		                ecomm_prodid: '',
+		                ecomm_pagetype: 'category',
+		                ecomm_totalvalue: 0
+		            };
+		        }
+		        if (window.location.pathname == '/store/') {
+		            var google_tag_params = {
+		                ecomm_prodid: '',
+		                ecomm_pagetype: 'home',
+		                ecomm_totalvalue: 0
+		            };
+		        }
+		        if (jQuery('#addItemToOrder').length > 0) {
+		            var id = tmParam.product_style;
+		            var price = jQuery('.pdpPrice.mrgnT10').text().replace(/[^0-9.-]/g, '');
+			      if(jQuery('.pdpStrikeThrough').length >0 ){
+			      price = jQuery('.pdpSalePrice.mrgnT10').text().split(" ")[1].replace(/[^0-9.-]/g, '');
+			      }
+		            var google_tag_params = {
+		                ecomm_pagetype: 'product',
+		                ecomm_prodid: id,
+		                ecomm_totalvalue: parseFloat(price)
+		            };
+		        }
+		    } catch (err) {}
+		    if (window.location.href.indexOf('/checkout/cart.jsp') != -1) {
+		        var len = jQuery('.sku-title:contains("STYLE")').next().length;
+		        var id = new Array();
+		        var price = jQuery('.grand-total .summary-value').text().replace(/[^0-9.]/g, '');
+		        for (i = 0; i < len; i++) {
+		            id.push(jQuery('.sku-title:contains("STYLE")').next()[i].innerHTML);
+		        }
+		        var google_tag_params = {
+		            ecomm_prodid: id,
+		            ecomm_pagetype: 'cart',
+		            ecomm_totalvalue: parseFloat(price)
+		        };
+		    }
+		</script>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 977732786;
+		var google_custom_params = window.google_tag_params;
+		var google_remarketing_only = true;
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	
+	
+	  <script type="text/javascript">
+    $(document).ready(function(){ 
+    	/* back to top script */
+    	if ($('#back-to-top').length) {    		
+    		var scrollTrigger = 100; // px
+    		$('#back-to-top').hide();
+    		function BTT(){    			
+	   			var scrollTop = $(window).scrollTop();
+	   			if (scrollTop > scrollTrigger) {
+	    			$('#back-to-top').fadeIn("fast");
+	    		} else {
+	    			$('#back-to-top').fadeOut("fast");
+	   			}
+    		};
+    		$(window).on("load", function(){
+    			BTT();
+        		$(window).on('scroll', function () {
+        			BTT();
+        		});
+    		});
+    		$('#back-to-top').on('click', function (e) {
+    			e.preventDefault();
+    			$('html,body').animate({
+    			scrollTop: 0
+    			}, 700);
+    		});
+    	}
+    	/* back to top script end */
+
+   	if($(".checkbox").length){
+    	$(".checkbox label").off("click").on("click", function(e){
+    		var href= $(this).next("a").attr("href");
+    		window.location= href;
+    	});
+   	}
+  
+    $("#mini-cart").removeClass("rueContCart");
+     
+    function subMenuAutoWidth() {
+    	$(".subMenu").each(function(){
+            if($(this).find("ul").length > 4){
+               $(this).addClass("columnWidth");
+            }      
+           });       
+      };
+
+      $('.toggleClass a.actioncollapse').off('click').on('click',function() {
+          $(".toggleClass").slideToggle();
+     });
+       
+      if (window.Modernizr && Modernizr.touch){
+    	if($(".quick-view-button").length) $(".quick-view-button").hide();
+      	$(".crossNavIcon a").on("click", function(){
+      		$(this).parents(".subMenu").prev().removeClass("active");
+      	});
+      	
+      	$(".primary-nav  > ul > li > a").on("click",function(e){        		
+            //e.preventDefault();
+            $this = $(this).parent();
+            $(this).addClass("active").parent().siblings().children("a").removeClass("active");
+            setTimeout(function(){
+          	  $this.find(".hoverMe").show().parent().siblings().children(".hoverMe").hide(); 
+            },1);
+            if($this.find(".hoverMe").is(":visible")){
+          	  return true;
+            }else{
+          	  return false;
+            }
+            
+           });
+      }else{    	
+      	$(".primary-nav li").hover(function(){
+      	       $(this).find(".subMenu").prev().addClass("active");
+      	              $(this).find(".hoverMe").show();
+      	      }, function(){
+      	              $(this).find(".subMenu").prev().removeClass("active");
+      	       $(this).find(".hoverMe").hide();
+      	      });        	
+      }
+      
+      
+    /* Top orange arrow click event functionality */  
+	if($(".topArwCont:visible").length){
+	 $(".topRightSec").addClass("moveLeft");
+	}
+	   
+	$(".crossIcon").on("click", function(e){
+	 e.preventDefault();
+	 $(".topRightSec").addClass("moveLeft");
+	});
+	
+	$(".topArwCont").on("click", function(e){
+	 e.preventDefault();
+	 $(".topRightSec").removeClass("moveLeft");
+	});
+	      
+        
+    var rue21 = {
+     init: function() {
+      		this.hoverMe(".chekcout-icon");
+            this.onClickHide(".crossNavIcon a");
+            rue21.enableToggleBtn(".promo-code-text-input", "#promo-code-submit");
+            rue21.enableToggleBtn("#locationZip", ".locator-search-button");
+            //changed by TAISTech for RUE-3173
+            $(".promo-code-text-input").on("input", function(){
+            	rue21.enableToggleBtn(".promo-code-text-input", "#promo-code-submit");
+            });
+          //changed by TAISTech for RUE-3173
+            $("#locationZip").on("input", function(){
+            	rue21.enableToggleBtn("#locationZip", ".locator-search-button");
+            });
+            
+      },
+      
+     hoverMe: function(selector){
+      $(selector).hover(function(){
+       $(this).find(".subMenu").prev().addClass("active");
+              $(this).find(".hoverMe").show();
+      }, function(){
+              $(this).find(".subMenu").prev().removeClass("active");
+       $(this).find(".hoverMe").hide();
+      });
+     },
+
+          onClickHide: function(selector){
+        	  $('body').on('click', selector, function(e){
+                e.preventDefault();
+              	$(this).parents(".closeParentCont").hide();
+            });
+          },
+          enableToggleBtn: function(inputBox, btnID){
+        	  var $inputBox = $(""+inputBox+"");
+        	  var $btnID = $(""+btnID+"");
+        	  if( $inputBox.val()=="" || $inputBox.val()=="undefined" ){
+        		  $btnID.prop('disabled', true).addClass("disabledBtn");
+        	  }else{
+        		  $btnID.prop('disabled', false).removeClass("disabledBtn");
+        	  }      	
+          }
+          
+     
+     
+     }
+  
+     rue21.init();
+
+      subMenuAutoWidth();
+    });
+  </script>
+  <script>
+	"use strict";
+	
+	if(typeof $.fn.foundation == "undefined"){
+	 	$(document).foundation();
+	}
+	
+	$("a.orbit-prev, a.orbit-next").off("click").on("click");
+	
+	$(function(){	
+		
+		$(window).on("load", function(){
+			if($('img[usemap]').length) $('img[usemap]').rwdImageMaps();				
+		});
+		
+		
+		//console.log($(".orbitGallery .orbit-container").length);
+		if(layoutMode =="normal"){
+			$(".orbitGallery .example-orbit:not(':first')").parent('div').css({left:"-9999px", position:"absolute"});
+			$(window).on("load", function(){
+				var slideHeight= $(".orbitGallery .orbit-container:first > ul").height();
+				$(".orbitGallery .orbit-container > ul").css({height:slideHeight+"px"});
+			});
+		};
+		
+		
+		/* RefinedArea Show/Hide Logic */
+		$(".refinedArea").each(function(){
+			if($(this).find("li").length > 0) $(this).show();
+		});
+		
+		//Category Discount Logic
+		if($(".orbit-container").length){
+			$(".catediscount").each(function(){
+				if($.trim($(this).html()) === ""){
+				$(this).parent().append($(this));
+				}
+			});
+		}
+		
+		//Submenu Positioning JS		
+		function resNavigation(){
+			if($("#navContainer")){
+			    if(typeof($("#navContainer").offset())!=="undefined" && typeof($("#navContainer").offset().left)!=="undefined"){
+			     var $MainWidth= $("#navContainer").width() + $("#navContainer").offset().left;
+			    }else{
+			     var $MainWidth= $("#navContainer").width();
+			    }
+			   }
+			$(".subMenu").each(function(){
+				var $this= $(this);
+				var MenuWidth=0;
+				$this.find('ul').each(function(){
+					MenuWidth+=$(this).width();
+				});
+				$this.css({"width": MenuWidth+50+"px"});
+				$this.css('visibility', 'hidden');
+				$this.show();
+				if($this.offset().left+(MenuWidth+50) >= $MainWidth){					
+					$this.css({"right":"0", "margin-left":"auto"});	
+				}
+				$this.hide();
+				$this.css('visibility', 'visible');
+			}); 
+		}
+		// Added for RUE-2869 Caraousle Issue on TAB
+		resNavigation();
+		$(window).on('resize', function(){
+			resNavigation();
+		});
+		
+		/* MeganNav active Tab functionality */		
+		(function(){
+			var activeDept= window.activeDept || "";
+			if(activeDept!=="" && typeof(activeDept)!=="undefined"){
+				activeDept= activeDept.replace(/\s/g, '').toLowerCase();
+				$(".primary-nav>ul>li>a").each(function(){
+					if($(this).prop('id')==""+activeDept+"" || $(this).text().toLowerCase()==""+activeDept+"") {
+						$(this).addClass("selected");
+						return false;
+					}
+				});
+			}			
+		})();
+	})
+  </script>
+  <script>
+    $(document).ready(function() {
+    	/* plp script */
+		$(".toggleImg > li > span, .toggleImg > div > span").off('click').on('click',function() {
+			 $(this).toggleClass("colarrowBot");
+			// $(this).toggleClass("colarrowMinus");
+			$(this).parents(".toggleImg").find(".slideCont").slideToggle();
+			
+			});
+		
+		$(".womenDress a").off('click').on('click',function() {
+			$(this).prev().trigger("click");
+			});
+    	/*plp script end */
+    	
+    	/* Toggle Divs on cart pages start*/
+    	if($(".toggleCollapse").length){
+    		
+    		$(".toggleCollapse").each(function(){
+    			// changed by TAISTech for RUE-3167 and RUE-3168
+    			if($(this).find("span").hasClass('colarrowBot')){
+    				var target = $(this).data("target");
+    				$(target).css("height", "0px");
+    			}
+    		});
+    		
+    		$(".toggleCollapse").on("click", function(){
+    			// changed by TAISTech for RUE-3167 and RUE-3168
+    			$(this).find("span").toggleClass("colarrowBot");
+    			$(this).find("span").toggleClass("colarrowTop");    			
+        		var target = $(this).data("target");
+        		// changed by TAISTech for RUE-3167 and RUE-3168
+        		if($(this).find("span").hasClass("colarrowTop")){
+        			$(target).collapse('show');	
+        		}else{
+        			$(target).collapse('hide');
+        		}
+        		
+        		
+        	});    		
+    	}
+    	/* Toggle Divs on cart pages end*/
+    	
+    });
+</script>
+ <script>
+ $(document).ready(function(){
+	  var getHref=  $(".newArrivalsLinks a").attr("href");
+	  console.log('getHref == ' + getHref);
+	 $(".orbitGallery #"+getHref+""+" .slickexample").slick({
+		  slidesToShow: 5,
+		  slidesToScroll: 5,
+		  arrows:true,
+		  lazyLoad: 'ondemand',
+		  accessibility:false
+		});
+	 
+		
+	 $(".orbitGallery_Snd  .slickexample").slick({
+		  slidesToShow: 5,
+		  slidesToScroll: 5,
+		  arrows:true,
+		  lazyLoad: 'ondemand',
+		  accessibility:false,
+		});
+	 
+	 
+	 
+ });
+</script>
+  
+	<noscript>
+		<div style="display:none;">
+		<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/977732786/?value=0&amp;guid=ON&amp;script=0"/>
+		</div>
+	</noscript>
+	<div id="global-small-modal" class="reveal-modal small">
+				<p class="message"></p>
+				<a class="button close-button right">OK, THANKS</a>
+				<a class="close-reveal-modal">&#215;</a>
+			</div>
+			<div id="global-medium-modal" class="reveal-modal medium">
+				<p class="message"></p>
+				<a class="button close-button right">OK, THANKS</a>
+				<a class="close-reveal-modal">&#215;</a>
+			</div>
+			<div id="global-large-modal" class="reveal-modal large">
+				<p class="message"></p>
+				<a class="button close-button right">OK, THANKS</a>
+				<a class="close-reveal-modal">&#215;</a>
+			</div>
+			<div id="terms-and-conditions-modal" class="reveal-modal large">
+				<div class="message"></div>
+				<div class="buttons right">
+					<a class="button accept">Accept</a>
+					<a class="button decline">Decline</a>
+				</div>
+			</div>
+			<div id="login-modal" class="reveal-modal"></div>
+			<div id="static-modal" class="reveal-modal"></div>
+<!--			<div id="forgot-password-modal" class="reveal-modal large"></div>-->
+			<div id="cart-confirm-modal" class="reveal-modal"></div>
+			<div id="edit-cart-express-modal" class="reveal-modal tiny"></div>
+			<div id="size-selector-mobile-error-modal" class="reveal-modal"></div>
+
+			<div id="quick-view-modal" class="reveal-modal"></div>
+			<div id="cc-modal" class="reveal-modal"></div>
+			<div id="gc-modal" class="reveal-modal"></div>
+			<div id="detail-box" class="reveal-modal"><img id="view-larger-image" /></div>
+			<div id="account-modal" class="reveal-modal small">
+				<p>Your account information has been updated successfully!</p>
+				<a class="button close-button">OK, THANKS</a>
+				<a class="close-reveal-modal">&#215;</a>
+			</div>
+			<div id="paypal-modal" class="reveal-modal small">
+				<p id="message"></p>
+				<a class="button close-button">OK, THANKS</a>
+				<a class="close-reveal-modal">&#215;</a>
+			</div>
+			<div id="registration-modal" class="reveal-modal small">
+				<p>Your account has been created successfully!</p>
+				<a class="button close-button">OK, THANKS</a>
+				<a class="close-reveal-modal">&#215;</a>
+			</div>
+			<div id="sizing-chart-modal" class="reveal-modal"></div>
+			<div id="forgot-password-modal" class="reveal-modal"></div>
+			<div id="rue-community-modal" class="reveal-modal small">
+				<p>Welcome to All that's rue!</p>
+				<p>Stay up-to-the-minute on all things rue21 with giveaways, the buzz, styling, fashion trends, and so much more.</p>
+				<div class="row rue-community">
+					<div class="small-12 columns">
+						<ul class="social-icons small-block-grid-6">
+						<li class="foot-facebook"><a href="http://www.facebook.com/rue21" target="_blank">rue21 on Facebook</a></li>
+						<li class="foot-twitter"><a href="http://twitter.com/#!/rue21" target="_blank">rue21 on Twitter</a></li>
+						<li class="foot-pinterest"><a href="http://pinterest.com/rue21official/" target="_blank">rue21 on Pinterest</a></li>
+						<li class="foot-youtube"><a href="http://www.youtube.com/user/rue21channel" target="_blank">rue21 on YouTube</a></li>
+						<li class="foot-instagram"><a href="http://instagram.com/rue21official" target="_blank">rue21 on Instagram</a></li>
+						<li class="foot-tumblr"><a href="http://rue21.tumblr.com" target="_blank">rue21 on Tumblr</a></li>
+						</ul>
+					</div>
+				</div>
+				<a class="close-reveal-modal">&#215;</a>
+			</div>
+			
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"applicationID":"2158697","applicationTime":38,"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"b0ed6b0b55","transactionName":"Yl1RYkVVXBVSVkIMC1sXeWVnG1AUXEJFAEtFSlxSQldGSFlGRg==","agent":"","errorBeacon":"bam.nr-data.net"}</script></body>
+	</html>
+

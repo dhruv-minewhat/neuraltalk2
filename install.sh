@@ -1,6 +1,6 @@
 # Install
 # Add Nvidia's cuda repository
-if [ ! -f "cudnn-7.0-linux-x64-v3.0-prod.tgz" ] ; then
+if [ ! -f "cudnn-7.0-linux-x64-v4.0-prod.tgz" ] ; then
   exit 1;
 fi
 wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_7.0-28_amd64.deb
@@ -32,12 +32,13 @@ sudo apt-get install -y cuda
 sudo apt-get clean
 
 # Optionally, download your own cudnn; requires registration.  
-if [ -f "cudnn-7.0-linux-x64-v3.0-prod.tgz" ] ; then
-  tar -xvf cudnn-7.0-linux-x64-v3.0-prod.tgz
+if [ -f "cudnn-7.0-linux-x64-v4.0-prod.tgz" ] ; then
+  tar -xvf cudnn-7.0-linux-x64-v4.0-prod.tgz
   sudo cp -P cudnn*/libcudnn* /usr/local/cuda/lib64
   sudo cp cudnn*/cudnn.h /usr/local/cuda/include
   sudo cp -P cuda*/libcudnn* /usr/local/cuda/lib64
   sudo cp cuda*/cudnn.h /usr/local/cuda/include
+  
 fi
 # Need to put cuda on the linker path.  This may not be the best way, but it works.
 sudo sh -c "sudo echo '/usr/local/cuda/lib64' > /etc/ld.so.conf.d/cuda_hack.conf"
@@ -53,7 +54,7 @@ for req in $(cat requirements.txt); do sudo pip install $req; done
 # Prepare Makefile.config so that it can build on aws
 cd ../
 cp Makefile.config.example Makefile.config
-if [ -f "../cudnn-7.0-linux-x64-v3.0-prod.tgz" ] ; then
+if [ -f "../cudnn-7.0-linux-x64-v4.0-prod.tgz" ] ; then
   sed -i '/^# USE_CUDNN := 1/s/^# //' Makefile.config
 fi
 sed -i '/^# WITH_PYTHON_LAYER := 1/s/^# //' Makefile.config
